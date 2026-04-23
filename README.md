@@ -1,6 +1,6 @@
 🌲 Forest Cover Type Prediction
 
-A Machine Learning project to classify forest cover types based on cartographic variables using Random Forest and advanced feature engineering, deployed via Streamlit.
+A Machine Learning project to classify forest cover types using cartographic features, built with Random Forest and deployed via Streamlit.
 
 📌 Problem Statement
 Predict the forest cover type (e.g., Aspen, Lodgepole Pine, Spruce/Fir) using environmental and geographical features such as:
