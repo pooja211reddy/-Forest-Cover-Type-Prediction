@@ -104,6 +104,8 @@ Features:
 ├── features.pkl            # Feature order
 └── README.md
 
+---
+
 ## 🛠️ Tech Stack
 Python
 Pandas, NumPy
@@ -112,10 +114,14 @@ SHAP
 Plotly
 Streamlit
 
+---
+
 ## ⚠️ Challenges
 Class imbalance
 Feature overlap between similar forest types
 Ensuring feature consistency during deployment
+
+---
 
 ## ✅ Solutions
 Used class_weight="balanced" instead of heavy SMOTE
@@ -123,18 +129,22 @@ Added engineered features
 Applied SHAP for debugging
 Ensured feature alignment in Streamlit
 
+---
+
 ## 💡 Key Learnings
 High accuracy does NOT mean perfect classification
 Feature engineering > hyperparameter tuning
 Model explainability is critical in real-world ML
 Deployment requires strict feature consistency
 
+---
+
 ## 🔮 Future Improvements
 Switch to XGBoost for better class separation
 Add SHAP dashboard in Streamlit
 Improve Aspen classification with targeted modeling
 Deploy app to cloud (Streamlit Cloud / AWS)
-
+---
 ## 👩‍💻 Author
 Pooja Reddy Nedhunuri
 Machine Learning Enthusiast 🚀
