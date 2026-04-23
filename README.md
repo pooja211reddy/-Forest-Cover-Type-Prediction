@@ -92,20 +92,6 @@ Features:
 
 ---
 
-## 📁 Project Structure
-
-📁 forest-cover-prediction
-│
-├── forest.py                # Streamlit app
-├── Forest_Classification.ipynb
-├── tuned_model.pkl         # Trained model
-├── encoder.pkl             # OneHotEncoder
-├── target_encoder.pkl      # LabelEncoder
-├── features.pkl            # Feature order
-└── README.md
-
----
-
 ## 🛠️ Tech Stack
 Python
 Pandas, NumPy
@@ -144,7 +130,9 @@ Switch to XGBoost for better class separation
 Add SHAP dashboard in Streamlit
 Improve Aspen classification with targeted modeling
 Deploy app to cloud (Streamlit Cloud / AWS)
+
 ---
+
 ## 👩‍💻 Author
 Pooja Reddy Nedhunuri
 Machine Learning Enthusiast 🚀
