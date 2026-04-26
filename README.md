@@ -88,7 +88,11 @@ Features:
 - Interactive sliders for input  
 - Real-time prediction  
 - Feature importance chart  
-- SHAP explanation plots  
+- SHAP explanation plots
+
+## 📊 Dashboard Preview
+
+![Dashboard](forest_dashboard.png)
 
 ---
 
