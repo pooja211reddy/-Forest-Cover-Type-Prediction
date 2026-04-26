@@ -69,7 +69,7 @@ Created meaningful derived features:
 - High performance across most classes  
 - Aspen class has lower recall (~84%)  
 - Confusion mainly between:
-  - Aspen ↔ Lodgepole Pine  
+- Aspen ↔ Lodgepole Pine  
 
 ---
 
@@ -79,7 +79,7 @@ Used SHAP to:
 - Explain predictions  
 - Identify misclassification causes  
 
-👉 Found that **Elevation heavily influences predictions**, causing overlap errors.
+- 👉 Found that **Elevation heavily influences predictions**, causing overlap errors.
 
 ---
 
@@ -97,46 +97,46 @@ Features:
 ---
 
 ## 🛠️ Tech Stack
-Python
-Pandas, NumPy
-Scikit-learn
-SHAP
-Plotly
-Streamlit
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- SHAP
+- Plotly
+- Streamlit
 
 ---
 
 ## ⚠️ Challenges
-Class imbalance
-Feature overlap between similar forest types
-Ensuring feature consistency during deployment
+- Class imbalance
+- Feature overlap between similar forest types
+- Ensuring feature consistency during deployment
 
 ---
 
 ## ✅ Solutions
-Used class_weight="balanced" instead of heavy SMOTE
-Added engineered features
-Applied SHAP for debugging
-Ensured feature alignment in Streamlit
+- Used class_weight="balanced" instead of heavy SMOTE
+- Added engineered features
+- Applied SHAP for debugging
+- Ensured feature alignment in Streamlit
 
 ---
 
 ## 💡 Key Learnings
-High accuracy does NOT mean perfect classification
-Feature engineering > hyperparameter tuning
-Model explainability is critical in real-world ML
-Deployment requires strict feature consistency
+- High accuracy does NOT mean perfect classification
+- Feature engineering > hyperparameter tuning
+- Model explainability is critical in real-world ML
+- Deployment requires strict feature consistency
 
 ---
 
 ## 🔮 Future Improvements
-Switch to XGBoost for better class separation
-Add SHAP dashboard in Streamlit
-Improve Aspen classification with targeted modeling
-Deploy app to cloud (Streamlit Cloud / AWS)
+- Switch to XGBoost for better class separation
+- Add SHAP dashboard in Streamlit
+- Improve Aspen classification with targeted modeling
+- Deploy app to cloud (Streamlit Cloud / AWS)
 
 ---
 
 ## 👩‍💻 Author
-Pooja Reddy Nedhunuri
-Machine Learning Enthusiast 🚀
+- Pooja Reddy Nedhunuri
+- Machine Learning Enthusiast 🚀
